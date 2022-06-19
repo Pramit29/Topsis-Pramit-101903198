@@ -27,6 +27,10 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+
+    
+    # This is necessary to get the executable file (topsis here) which acts as a command initiater. If entry point is not mentioned then
+    # we would not be able to use the command as executable file is not created.
     entry_points={
         "console_scripts": [
             "topsis=Topsis_Pramit_101903198.topsis_Pramit:main",
