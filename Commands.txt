@@ -1,0 +1,10 @@
+Commands at Local Computer:
+
+To run file in terminal: python ".\Topsis_Pramit_101903198\101903198.py" 101903198-data.csv '1,1,1,1,1' '+,+,-,+,-' result.csv
+
+pip install --upgrade setuptools wheel
+pip install twine
+python setup.py sdist bdist_wheel
+twine upload dist/*
+https://pypi.org/project/Topsis-Pramit-101903198/1.0.2/
+topsis 101903198-data.csv "1,1,1,1,1" "+,+,-,+,-" result.csv

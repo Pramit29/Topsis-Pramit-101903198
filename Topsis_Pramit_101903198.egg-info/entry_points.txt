@@ -1,0 +1,2 @@
+[console_scripts]
+topsis = Topsis_Pramit_101903198.topsis_Pramit:main
