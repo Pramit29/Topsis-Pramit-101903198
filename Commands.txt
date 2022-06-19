@@ -1,10 +1,16 @@
-Commands at Local Computer:
+*******8***Commands at Local Computer****************
 
-To run file in terminal: python ".\Topsis_Pramit_101903198\101903198.py" 101903198-data.csv '1,1,1,1,1' '+,+,-,+,-' result.csv
+RUN FILE IN THE TERMINAL:-
+python ".\Topsis_Pramit_101903198\101903198.py" 101903198-data.csv '1,1,1,1,1' '+,+,-,+,-' result.csv
 
+UPLOADING PACKAGE ON PYPI.ORG:-
 pip install --upgrade setuptools wheel
 pip install twine
 python setup.py sdist bdist_wheel
 twine upload dist/*
+
+SITE WHERE THE PACKAGE IS UPLOADED:-
 https://pypi.org/project/Topsis-Pramit-101903198/1.0.2/
+
+COMMAND TO USE THE PACKAGE
 topsis 101903198-data.csv "1,1,1,1,1" "+,+,-,+,-" result.csv
