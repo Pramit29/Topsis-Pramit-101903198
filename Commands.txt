@@ -1,4 +1,4 @@
-*******8***Commands at Local Computer****************
+**********Commands at Local Computer****************
 
 RUN FILE IN THE TERMINAL:-
 python ".\Topsis_Pramit_101903198\101903198.py" 101903198-data.csv '1,1,1,1,1' '+,+,-,+,-' result.csv
