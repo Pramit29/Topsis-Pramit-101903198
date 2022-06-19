@@ -39,6 +39,7 @@ It is a method where multiple models can be compared and scores can be assigned 
 ```
 >> topsis 101903198-data.csv(your input data file) "1,1,1,1,1" "+,+,-,+,-" result.csv
 ```
+Note- Include the complete path name of your input data file if it is not stored in the current directory.
 
 ## Input file (data.csv)
 
