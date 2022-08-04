@@ -16,6 +16,8 @@ Maintainer: **Pramit Deep Kaur Gogna <pramitdkgogna@gmail.com>**.
 
 Description: **Evaluation of alternatives based on multiple criteria using TOPSIS method.**.
 
+Download here: **https://pypi.org/project/Topsis-Pramit-101903198/1.0.2/**
+
 ---
 
 ## What is TOPSIS?
