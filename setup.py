@@ -30,7 +30,8 @@ setup(
 
     
     # This is necessary to get the executable file (topsis here) which acts as a command initiater. If entry point is not mentioned then
-    # we would not be able to use the command as executable file is not created.
+    # we would not be able to use the command as executable file is not created. 
+    #If we change the name from 'topsis' to some other name then that name would be used to access the executable file.
     entry_points={
         "console_scripts": [
             "topsis=Topsis_Pramit_101903198.topsis_Pramit:main",
